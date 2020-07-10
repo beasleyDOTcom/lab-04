@@ -5,3 +5,10 @@ div{
     text-align: center;
     border: 2px dotted #c7ff8f;
 }
+
+body{
+    background-color: #c78fff;
+    width: 480px;
+    height: 767px;
+    
+}
