@@ -64,3 +64,108 @@ main{
    width: 240px;
    line-height: 250px;
 }
+@media only screen and (min-width: 550px){
+main{
+    width: 100vw;
+    height: 120vw;
+    grid-template-columns: 20% 20% 20% 20% 20%;
+    grid-template-rows: 20% 20% 20% 20% 20% 20%;
+}
+    #a{
+    grid-area:1/1/2/6;
+    height: 100%;
+}
+    #b{
+        grid-area: 2/1/7/2;
+        height: 100%;
+    }
+    #c{
+        grid-area: 2/2/4/4;
+        height: 100%;
+    }
+    #d{
+        grid-area: 2/4/4/6;
+        height: 100%;
+    }
+    #e{
+        grid-area: 4/2/6/3;
+        height: 100%;
+    }
+    #f{
+        grid-area: 4/3/6/4;
+        height: 100%;
+        
+    }
+    #g{
+        grid-area: 4/4/6/5;
+        height: 100%;
+        width:100%;
+    }
+    #h{
+        grid-area: 4/5/6/6;
+        height: 100%;
+        width:100%;
+    }
+    #i{
+        grid-area: 6/2/7/6;
+        height: 100%;
+        width:100%;
+    }
+}
+@media only screen and (min-width: 900px){
+    main{
+        width: 100vw;
+        height: 120vw;
+        grid-template-columns: 20% 20% 20% 20% 20%;
+        grid-template-rows: 20% 20% 20% 20% 20% 20%;
+    }
+        #a{
+        grid-area:1/1/2/6;
+        height: 100%;
+        background-color: green;
+    }
+        #b{
+            grid-area: 2/1/7/2;
+            height: 100%;
+            background-color: blue;
+        }
+        #c{
+            grid-area: 2/2/4/4;
+            height: 100%;
+            background-color: black;
+            color: white;
+        }
+        #d{
+            grid-area: 2/4/4/6;
+            height: 100%;
+            background-color: white;
+        }
+        #e{
+            background-color: green;
+            grid-area: 4/2/6/3;
+            height: 100%;
+        }
+        #f{
+            grid-area: 4/3/6/4;
+            height: 100%;
+            background-color: blue;
+        }
+        #g{
+            grid-area: 4/4/6/5;
+            height: 100%;
+            width:100%;
+            background-color: white;
+        }
+        #h{
+            grid-area: 4/5/6/6;
+            height: 100%;
+            width:100%;
+            background-color: blue;
+        }
+        #i{
+            grid-area: 6/2/7/6;
+            height: 100%;
+            width:100%;
+            background-color: green;
+        }
+    
